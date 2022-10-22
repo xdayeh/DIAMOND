@@ -1,0 +1,13 @@
+<svg width="1779" height="1581" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <defs>
+  <filter id="filter0_f" x="0" y="0" width="1778.05" height="1580.92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="169.5" result="effect1_foregroundBlur"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g filter="url(#filter0_f)" id="svg_1" stroke="null">
+   <ellipse cx="798.98796" cy="240.0686" rx="480" ry="271.281" fill="#49b9f0" fill-opacity="0.36" id="svg_2" transform="matrix(0.394723 -0.196829 0.188213 0.412792 -113.037 589.625)" stroke="null"/>
+  </g>
+ </g>
+</svg>
