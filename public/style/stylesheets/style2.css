@@ -1,0 +1,110 @@
+:root{
+    --background: #010409;
+    --navbar: #161b22;
+    --borderNav: 1px solid #30363d;
+    --DNDColor: #3e9fc8;
+}
+body{
+    background: var(--background);
+}
+#loading {
+    width: 100%;
+    height: 100%;
+    z-index: 5001;
+    position: fixed;
+    background-color: var(--background);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);}
+.navbar-dnd{
+    background-color: var(--navbar);
+    border-bottom: var(--borderNav);
+    border-top: var(--borderNav);
+}
+.sectionWelcome{
+    background-color: #0d1117;
+    background-size: cover;
+    background-image: url(../photo/overlay.svg);
+    left: -1484px;
+}
+.Social-Media .fas {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+    box-sizing: unset;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);}
+    .Social-Media .fas:hover {
+        opacity: 0.7;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);}
+    .Social-Media .fa-dollar-sign {
+        background: #0d1117;
+        color: white;}
+    .Social-Media .fa-wallet {
+        background: #0d1117;
+        color: white;}
+    .Social-Media .fa-gem {
+        color: var(--DNDColor);}
+    .Social-Media .fa-funnel-dollar {
+        background: #0d1117;
+        color: white;}
+.Font-DND{
+    color: #c9d1d9;
+}
+.Font-DND2{
+    color: #8b949e;
+}
+.bg-DND{
+    border: var(--borderNav);
+    background-color: #0d1117;
+}
+.but-DND{
+    color: #c9d1d9;
+    background-color: #0d1117;
+    border-color: #363b42;
+}
+.btn-primary{
+    color: #161b22;
+    background-color: #36899c;
+    border-color: #143943;
+}
+.btn-outline-primary{
+    color: #c9d1d9;
+    border-color: #704b18;
+}
+.btn-primary:hover{
+    background-color: #36899c;
+    border-color: #143943;
+}
+.btn-outline-primary:hover{
+    background-color: #36899c;
+    border-color: #143943;
+}
+.buyColor-dnd{
+    color: #238636;
+}
+.accordion-button{
+    background-color:#161b22;
+    color: #c9d1d9;
+}
+    .accordion-button:not(.collapsed){
+        background-color: #0d1117;
+    }
+    .accordion-item:first-of-type .accordion-button{
+        color: #c9d1d9;
+    }
+    .accordion-item{
+        background-color:#161b22;
+        border-color: #30363d;
+    }
+    .accordion-button:focus{
+        box-shadow: none;
+    }
+    .accordion-button:not(.collapsed){
+        color: #c9d1d9;
+    }
+
